@@ -243,7 +243,7 @@ if(playTime > 172290 && playTime < 172390) {
   text(r, 83, 350);
   }
   
-  if(playTime > 172490 && playTime < 173290 || playTime > 173390 && playTime < 173490){
+  if(playTime > 172490 && playTime < 172590 || playTime > 173390 && playTime < 173490){
    textSize(110);
  fill(200,200,200)
  text(o, 163, 350);
@@ -295,8 +295,6 @@ if(playTime > 172290 && playTime < 172390) {
    text(propaganda, 10, 350);
  } 
  
-
-
 }
 
 
@@ -632,8 +630,6 @@ if (playTime > 6500 && playTime < 6700 ||playTime > 6900 && playTime < 7200 ){
   text(propaganda, 10, 350);
 } 
 }
-
-
 
 function vurse2(){
   if (playTime > 66100 && playTime < 67200){
