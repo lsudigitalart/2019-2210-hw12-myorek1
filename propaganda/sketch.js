@@ -29,6 +29,7 @@ var prop
 var death
 var polution 
 var killingme
+var you2
 
 
 var BWspiral1
@@ -76,6 +77,7 @@ function preload(){
   polution =  createImg("polution.gif");
   killingme =  createImg("killingme.png");
   spiral3 = createImg("spiral3.gif"); 
+  you2 = createImg("you2.png");
 }
 
 function setup(){
@@ -129,6 +131,7 @@ if (playTime>0){
   death.hide();
   polution.hide();
   killingme.hide();
+  you2.hide();
 }
 // opening of the song
  // words 1
@@ -181,6 +184,9 @@ if (playTime > 96000){
 }
 
 vurse2();
+
+
+
 Propaganda5();
 
 
@@ -528,6 +534,9 @@ if (playTime > 6500 && playTime < 6700 ||playTime > 6900 && playTime < 7200 ){
   text(propaganda, 10, 350);
 } 
 }
+
+
+
 function vurse2(){
   if (playTime > 66100 && playTime < 67200){
 
@@ -552,12 +561,12 @@ function vurse2(){
   
   // you cant lose writen out
 if (playTime > 81600 && playTime < 82200){
-     you.show();
-    you.position(160,200);
+     you2.show();
+    you2.position(160,200);
     print('you');
   }
     if (playTime > 82200){
-       you.hide();
+       you2.hide();
       }
   if (playTime > 82200 && playTime < 82400){
     cant.show();
@@ -936,7 +945,7 @@ function Propaganda5(){
      fill(200,200,200)
      text(a, 705, 350);
      }
-     if (playTime > 99000 && playTime < 99200 ||playTime > 99400 && playTime < 99600 ){
+     if (playTime > 99200 && playTime < 99400 ||playTime > 99600 && playTime < 99800 ){
        textSize(110);
        fill(180,69,166)
        text(propaganda, 10, 350);
@@ -1035,37 +1044,37 @@ function Propaganda5(){
       image(prop, 0,0,prop.width*.8, prop.height*1);
     } 
     //final word before next spiral
-    if(playTime > 104000 && playTime < 59100||playTime > 59100 && playTime < 60100) {
+    if(playTime > 104000 && playTime < 105100||playTime > 105100 && playTime < 106100) {
       textSize(110);
       fill(200,200,200)
       p = 'P'
       }
      
-      if(playTime > 104100 && playTime < 59100||playTime > 105100 && playTime < 106000){
+      if(playTime > 104100 && playTime < 105100||playTime > 105100 && playTime < 106000){
         textSize(110);
       fill(200,200,200)
       text(r, 83, 350);
       }
       
-      if(playTime > 104200 && playTime < 59100||playTime > 105100 && playTime < 105900){
+      if(playTime > 104200 && playTime < 105100||playTime > 105100 && playTime < 105900){
        textSize(110);
      fill(200,200,200)
      text(o, 163, 350);
      }
      
-     if(playTime > 104300 && playTime < 59100||playTime > 105100 && playTime < 105800){
+     if(playTime > 104300 && playTime < 105100||playTime > 105100 && playTime < 105800){
        textSize(110);
      fill(200,200,200)
      text(p2, 248, 350);
      }
      
-     if(playTime > 104400 && playTime < 59100||playTime > 105100 && playTime < 105700){
+     if(playTime > 104400 && playTime < 105100||playTime > 105100 && playTime < 105700){
        textSize(110);
      fill(200,200,200)
      text(a, 313, 350);
      }
      
-     if(playTime > 104500 && playTime < 59100||playTime > 105100 && playTime < 105600){
+     if(playTime > 104500 && playTime < 105100||playTime > 105100 && playTime < 105600){
        textSize(110);
      fill(200,200,200)
      text(g, 387, 350);
