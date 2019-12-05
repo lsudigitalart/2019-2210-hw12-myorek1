@@ -209,6 +209,7 @@ if(playTime > 106300){
   spiral3.style("z-index", "0");
 }
 
+
 print(playTime)
 }
 
@@ -571,39 +572,39 @@ function vurse2(){
   }
   
   // you cant lose writen out
-if (playTime > 81500 && playTime < 82200){
+if (playTime > 81100 && playTime < 81500){
      you2.show();
     you2.position(160,200);
     print('you');
   }
-    if (playTime > 82200){
+    if (playTime > 81500){
        you2.hide();
       }
-  if (playTime > 82200 && playTime < 82400){
+  if (playTime > 81500 && playTime < 81700){
     cant3.show();
     cant3.position(120,200);
   }
-  if (playTime > 82400){
+  if (playTime > 81700){
     cant3.hide();
   }
-  if (playTime > 82400 && playTime < 82500){
+  if (playTime > 81700 && playTime < 82000){
     lose2.show();
     lose2.position(120,200);
   }
-  if (playTime > 82500){
+  if (playTime > 82000){
     lose2.hide();
   }
   
   // i cant refuse written out
-  if (playTime > 86800 && playTime < 87000){
+  if (playTime > 85800 && playTime < 86000){
     I2.show();
     I2.position(380,200);
   }
-    if (playTime > 86800){
+    if (playTime > 85800){
        I.hide();
       }
     
-  if (playTime > 87000 && playTime < 87400){
+  if (playTime > 86000 && playTime < 86400){
     cant3.show();
     cant3.position(120,200);
   }
@@ -611,12 +612,12 @@ if (playTime > 81500 && playTime < 82200){
     cant3.hide();
   }
   
-  if (playTime > 87400 && playTime < 89000){
+  if (playTime > 86400 && playTime < 87000){
     refuse.show();
     refuse.position(-10,200);
     print('refuse');
   }
-  if (playTime > 89000){
+  if (playTime > 87000){
     refuse.hide();
   
   }
