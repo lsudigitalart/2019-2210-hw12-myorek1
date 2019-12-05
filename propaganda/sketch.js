@@ -30,6 +30,9 @@ var death
 var polution 
 var killingme
 var you2
+var cant3
+var lose2
+var I2
 
 
 var BWspiral1
@@ -78,6 +81,9 @@ function preload(){
   killingme =  createImg("killingme.png");
   spiral3 = createImg("spiral3.gif"); 
   you2 = createImg("you2.png");
+  cant3 = createImg("cant2.png");
+  lose2 = createImg("lose2.png");
+  I2 = createImg("I2.png");
 }
 
 function setup(){
@@ -132,7 +138,12 @@ if (playTime>0){
   polution.hide();
   killingme.hide();
   you2.hide();
+  cant3.hide();
+  lose2.hide();
+  I2.hide();
+
 }
+
 // opening of the song
  // words 1
  Propoganda1(); 
@@ -560,7 +571,7 @@ function vurse2(){
   }
   
   // you cant lose writen out
-if (playTime > 81600 && playTime < 82200){
+if (playTime > 81500 && playTime < 82200){
      you2.show();
     you2.position(160,200);
     print('you');
@@ -569,35 +580,35 @@ if (playTime > 81600 && playTime < 82200){
        you2.hide();
       }
   if (playTime > 82200 && playTime < 82400){
-    cant.show();
-    cant.position(120,200);
+    cant3.show();
+    cant3.position(120,200);
   }
   if (playTime > 82400){
-    cant.hide();
+    cant3.hide();
   }
   if (playTime > 82400 && playTime < 82500){
-    lose.show();
-    lose.position(120,200);
+    lose2.show();
+    lose2.position(120,200);
   }
   if (playTime > 82500){
-    lose.hide();
+    lose2.hide();
   }
   
   // i cant refuse written out
   if (playTime > 86800 && playTime < 87000){
-    I.show();
-    I.position(380,200);
+    I2.show();
+    I2.position(380,200);
   }
     if (playTime > 86800){
        I.hide();
       }
     
   if (playTime > 87000 && playTime < 87400){
-    cant.show();
-    cant.position(120,200);
+    cant3.show();
+    cant3.position(120,200);
   }
   if (playTime > 87400){
-    cant.hide();
+    cant3.hide();
   }
   
   if (playTime > 87400 && playTime < 89000){
