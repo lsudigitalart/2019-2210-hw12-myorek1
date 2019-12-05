@@ -240,124 +240,65 @@ if(playTime > 172290 && playTime < 172390) {
   }
   
  
-  if(playTime > 172390 && playTime < 172490){
+  if(playTime > 172390 && playTime < 172490||playTime > 173290 && playTime < 173390){
     textSize(110);
   fill(200,200,200)
   text(r, 83, 350);
   }
   
-  if(playTime > 172490 && playTime < 172590){
+  if(playTime > 172490 && playTime < 173290 || playTime < 173390){
    textSize(110);
  fill(200,200,200)
  text(o, 163, 350);
  }
  
- if(playTime > 172590 && playTime < 172690 ){
+ if(playTime > 172590 && playTime < 172690 ||playTime > 173390 && playTime < 173490 ){
    textSize(110);
  fill(200,200,200)
  text(p2, 248, 350);
  }
  
- if(playTime > 172690 && playTime < 172790){
+ if(playTime > 172690 && playTime < 172790 ||playTime > 173490 && playTime < 173590){
    textSize(110);
  fill(200,200,200)
  text(a, 313, 350);
  }
  
- if(playTime > 172790 && playTime < 172890){
+ if(playTime > 172790 && playTime < 172890||playTime > 173590 && playTime < 173690){
    textSize(110);
  fill(200,200,200)
  text(g, 387, 350);
  }
  
- if(playTime > 172890 && playTime < 172990){
+ if(playTime > 172890 && playTime < 172990||playTime > 173690 && playTime < 173790){
    textSize(110);
  fill(200,200,200)
  text(a, 472, 350);
  }
  
- if(playTime > 172990 && playTime < 173090){
+ if(playTime > 172990 && playTime < 173090||playTime > 173790 && playTime < 173890){
    textSize(110);
  fill(200,200,200)
  text(n, 546, 350);
  }
  
- if(playTime > 1100 && playTime < 1200 ||playTime > 2300 && playTime < 2400){
+ if(playTime > 173090 && playTime < 173190 ||playTime > 173890 && playTime < 173990){
    textSize(110);
  fill(200,200,200)
  text(d, 625, 350);
  }
- if(playTime > 173090 && playTime < 173190){
+ if(playTime > 173190 && playTime < 173290 ||playTime > 173990 && playTime < 174090){
    textSize(110);
  fill(200,200,200)
  text(a, 705, 350);
  }
- if (playTime > 173190){
+ if (playTime > 174090){
    textSize(110);
    fill(180,69,166)
    text(propaganda, 10, 350);
  } 
  
- // big propoganda letters flash
- 
- if (playTime > 2900 && playTime < 3100){
-   textSize(600);
-   fill(200,200,200)
-   text('P', 240, 500);
- } 
- 
- if (playTime > 3100 && playTime < 3300){
-   textSize(600);
-   fill(200,200,200)
-   text('R', 240, 500);
- } 
- 
- if (playTime > 3300 && playTime < 3500){
-   textSize(600);
-   fill(200,200,200)
-   text('O', 240, 500);
- } 
- 
- if (playTime > 3500 && playTime < 3700){
-   textSize(600);
-   fill(200,200,200)
-   text('P', 240, 500);
- } 
- if (playTime > 3700 && playTime < 3900){
-   textSize(600);
-   fill(200,200,200)
-   text('A', 240, 500);
- } 
- if (playTime > 3900 && playTime < 4100){
-   textSize(600);
-   fill(200,200,200)
-   text('G', 240, 500);
- } 
- if (playTime > 4100 && playTime < 4300){
-   textSize(600);
-   fill(200,200,200)
-   text('A', 240, 500);
- } 
- if (playTime > 4300 && playTime < 4500){
-   textSize(600);
-   fill(200,200,200)
-   text('N', 240, 500);
- } 
- if (playTime > 4500 && playTime < 4700){
-   textSize(600);
-   fill(200,200,200)
-   text('D', 240, 500);
- } 
- if (playTime > 4700 && playTime < 4900){
-   textSize(600);
-   fill(200,200,200)
-   text('A', 240, 500);
- } 
- if (playTime > 5000 && playTime < 5100 ||playTime > 5200 && playTime < 5300 ){
-   textSize(110);
-   fill(180,69,166)
-   text(propaganda, 10, 350);
- } 
+
 print(playTime)
 }
 
