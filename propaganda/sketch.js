@@ -873,70 +873,70 @@ function Propoganda4(){
 function Propaganda5(){
 
   // flash the leterrs a ccross the screen oppening sequence
-    if(playTime > 97000 && playTime < 97100 ||playTime >98300 && playTime < 98400) {
+    if(playTime > 96800 && playTime < 96900 ||playTime >97900 && playTime < 98000) {
       textSize(110);
       fill(200,200,200)
       p = 'P'
       }
      
-      if (playTime > 97100 && playTime < 98300|| playTime > 52400 ){
+      if (playTime > 96800 && playTime < 96900|| playTime > 98000 ){
          p = ''
       }
       
      
-      if(playTime > 97100 && playTime < 97200 ||playTime > 98400 && playTime < 98500){
+      if(playTime > 96900 && playTime < 97000 ||playTime > 98000 && playTime < 98100){
         textSize(110);
       fill(200,200,200)
       text(r, 83, 350);
       }
       
-      if(playTime > 97200 && playTime < 97300 ||playTime > 98500 && playTime < 98600){
+      if(playTime > 97000 && playTime < 97100 ||playTime > 98100 && playTime < 98200){
        textSize(110);
      fill(200,200,200)
      text(o, 163, 350);
      }
      
-     if(playTime > 97300 && playTime < 97400 ||playTime > 98600 && playTime < 98700){
+     if(playTime > 97100 && playTime < 97200 ||playTime > 98200 && playTime < 98300){
        textSize(110);
      fill(200,200,200)
      text(p2, 248, 350);
      }
      
-     if(playTime > 97500 && playTime < 97600 ||playTime > 98700 && playTime < 98800){
+     if(playTime > 97200 && playTime < 97300 ||playTime > 98300 && playTime < 98400){
        textSize(110);
      fill(200,200,200)
      text(a, 313, 350);
      }
      
-     if(playTime > 97600 && playTime < 97700 ||playTime > 98800 && playTime < 98900){
+     if(playTime > 97300 && playTime < 97400 ||playTime > 98400 && playTime < 98500){
        textSize(110);
      fill(200,200,200)
      text(g, 387, 350);
      }
      
-     if(playTime > 97700 && playTime < 97800 ||playTime > 98900 && playTime < 99000){
+     if(playTime > 97400 && playTime < 97500 ||playTime > 98500 && playTime < 98600){
        textSize(110);
      fill(200,200,200)
      text(a, 472, 350);
      }
      
-     if(playTime > 97800 && playTime < 97900 ||playTime > 99000 && playTime < 99100){
+     if(playTime > 97500 && playTime < 97600 ||playTime > 98600 && playTime < 98700){
        textSize(110);
      fill(200,200,200)
      text(n, 546, 350);
      }
      
-     if(playTime > 97900 && playTime < 98000 ||playTime > 99100 && playTime < 99200){
+     if(playTime > 97600 && playTime < 97700 ||playTime > 98700 && playTime < 98800){
        textSize(110);
      fill(200,200,200)
      text(d, 625, 350);
      }
-     if(playTime > 98000 && playTime < 98100 ||playTime > 99200 && playTime < 99300){
+     if(playTime > 97700 && playTime < 97800 ||playTime > 98800 && playTime < 98900){
        textSize(110);
      fill(200,200,200)
      text(a, 705, 350);
      }
-     if (playTime > 99300 && playTime < 99400 ||playTime > 99600 && playTime < 99700 ){
+     if (playTime > 99000 && playTime < 99200 ||playTime > 99400 && playTime < 99600 ){
        textSize(110);
        fill(180,69,166)
        text(propaganda, 10, 350);
