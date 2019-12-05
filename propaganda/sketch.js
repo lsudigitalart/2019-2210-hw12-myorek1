@@ -212,7 +212,7 @@ if(playTime > 106300){
 //131700 lies
 //14000000lies 
 //1679
-
+// lies in the thing 
 if(playTime > 137000){
   lies.show();
   lies.position(150,200);
@@ -224,11 +224,8 @@ if (playTime > 137900){
 // last propoganda
 if(playTime > 172290){
   spiral3.hide();
-  //textSize(110);
-  //fill(180,69,166)
-  //text(propaganda, 10, 350);
 }
-//
+//final propoganda 
 if(playTime > 172290 && playTime < 172390) {
   textSize(110);
   fill(200,200,200)
@@ -246,53 +243,53 @@ if(playTime > 172290 && playTime < 172390) {
   text(r, 83, 350);
   }
   
-  if(playTime > 172490 && playTime < 173290 || playTime < 173390){
+  if(playTime > 172490 && playTime < 173290 || playTime > 173390 && playTime < 173490){
    textSize(110);
  fill(200,200,200)
  text(o, 163, 350);
  }
  
- if(playTime > 172590 && playTime < 172690 ||playTime > 173390 && playTime < 173490 ){
+ if(playTime > 172590 && playTime < 172690 ||playTime > 173490 && playTime < 173590 ){
    textSize(110);
  fill(200,200,200)
  text(p2, 248, 350);
  }
  
- if(playTime > 172690 && playTime < 172790 ||playTime > 173490 && playTime < 173590){
+ if(playTime > 172690 && playTime < 172790 ||playTime > 173590 && playTime < 173690){
    textSize(110);
  fill(200,200,200)
  text(a, 313, 350);
  }
  
- if(playTime > 172790 && playTime < 172890||playTime > 173590 && playTime < 173690){
+ if(playTime > 172790 && playTime < 172890||playTime > 173690 && playTime < 173790){
    textSize(110);
  fill(200,200,200)
  text(g, 387, 350);
  }
  
- if(playTime > 172890 && playTime < 172990||playTime > 173690 && playTime < 173790){
+ if(playTime > 172890 && playTime < 172990||playTime > 173790 && playTime < 173890){
    textSize(110);
  fill(200,200,200)
  text(a, 472, 350);
  }
  
- if(playTime > 172990 && playTime < 173090||playTime > 173790 && playTime < 173890){
+ if(playTime > 172990 && playTime < 173090||playTime > 173890 && playTime < 173990){
    textSize(110);
  fill(200,200,200)
  text(n, 546, 350);
  }
  
- if(playTime > 173090 && playTime < 173190 ||playTime > 173890 && playTime < 173990){
+ if(playTime > 173090 && playTime < 173190 ||playTime > 173990 && playTime < 174090){
    textSize(110);
  fill(200,200,200)
  text(d, 625, 350);
  }
- if(playTime > 173190 && playTime < 173290 ||playTime > 173990 && playTime < 174090){
+ if(playTime > 173190 && playTime < 173290 ||playTime > 174090 && playTime < 174190){
    textSize(110);
  fill(200,200,200)
  text(a, 705, 350);
  }
- if (playTime > 174090){
+ if (playTime > 174190){
    textSize(110);
    fill(180,69,166)
    text(propaganda, 10, 350);
