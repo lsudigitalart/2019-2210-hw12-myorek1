@@ -208,8 +208,18 @@ if(playTime > 106300){
   spiral3.size(800,600);
   spiral3.style("z-index", "0");
 }
+//1280000
+//131700 lies
+//14000000lies 
+//1679
+// last propoganda
+if(playTime > 172290){
+  spiral3.hide();
+  textSize(110);
+  fill(180,69,166)
+  text(propaganda, 10, 350);
 
-
+}
 print(playTime)
 }
 
